@@ -4,7 +4,7 @@
         "es6": true
     },
     "extends": "eslint:recommended",
-    "parser": "babel-eslint",
+    "parser": "eslint",
     "parserOptions": {
         "ecmaVersion": 2018,
         "ecmaFeatures": {
@@ -13,7 +13,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+
     ],
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
